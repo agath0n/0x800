@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
   RDM_Init();
   GRD_Init();
   //TODO Write arg parser for auto play.
-  CLI_Init(TRUE);
+  CLI_Init(FALSE);
 
   //Main software
   CLI_Process();
